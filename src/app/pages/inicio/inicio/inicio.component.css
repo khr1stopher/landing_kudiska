@@ -1,0 +1,55 @@
+header .gradient{
+    /* background: url('../../../../assets/header_br.jpg') center; */
+    /* background-size: cover; */
+}
+header{
+    background-image: linear-gradient(to top, white 0%, #dfe9f3 100%);}
+header .gradient .container {
+    height: auto;
+}
+a{
+    font-family: 'Cabin', sans-serif;
+    margin: 0px 1rem;
+    color: #f5f5f5 !important;
+}
+.content{
+    margin-top: 12.5rem;
+}
+p{
+    text-align: justify;
+}
+h1{
+    font-family: 'Cabin', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.down{
+    cursor: pointer;
+    align-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    padding: .5rem;
+    /* position: absolute; */
+    /* left: calc(50% - 1.5rem); */
+    background: #f5f5f5;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+a img{
+    width: 10rem;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 0px) and (max-width: 450px){
+}
+@media (min-width: 400px) and (max-width: 750px){
+}
+@media (min-width: 750px) and (max-width: 1250px){
+}
+@media (min-width: 1250px) and (max-width: 1000000000px){
+}

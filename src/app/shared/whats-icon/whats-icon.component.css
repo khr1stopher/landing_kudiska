@@ -1,0 +1,11 @@
+.icono_whats{
+    height: 4rem;
+    cursor: pointer;
+    width: 4rem;
+    background: url('../../../assets/whatsapp.png');
+    background-size: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}

@@ -1,0 +1,18 @@
+nav{
+    position: absolute;
+    padding-top: 25px !important;
+}
+a{
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+}
+a.navbar-brand{
+    font-size: 1.75rem;
+}
+li.nav-item.contact a{
+    transition: .2s;
+}
+li.nav-item.contact:hover a{
+    color: aliceblue !important;
+    background: black;
+}
