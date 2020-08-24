@@ -13,6 +13,5 @@ li.nav-item.contact a{
     transition: .2s;
 }
 li.nav-item.contact:hover a{
-    color: aliceblue !important;
-    background: black;
+    
 }

@@ -10,12 +10,27 @@ import { Routes, RouterModule } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
+  contacto_activo: boolean
+
   constructor(
   ) { 
-    
+    this.contacto_activo = false
    }
 
   ngOnInit(): void {
+  }
+
+  contacto() {
+    if ( !this.contacto_activo ){
+      document.getElementById('contacto').style.display = "inherit"
+    } else if (this.contacto_activo) { 
+      this.contacto_activo = false
+      document.getElementById('contacto').style.display = "none"
+    } else {
+      this.contacto_activo = true
+      document.getElementById('contacto').style.display = "none"
+    }
+    
   }
 
 }

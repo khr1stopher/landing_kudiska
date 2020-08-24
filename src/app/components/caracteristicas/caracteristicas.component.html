@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="header">
+        <h2 class="text-center px-4">Que Caracteriza a Kudiska</h2>
+        <p class="text-center">¡Con <b>Kudiska</b> lo que esta en tu mente se hace realidad!</p>
+    </div>
+    <div class="content">
+        <div class="row p-5">
+            <div class="col-4" *ngFor="let item of caracteristicas; let i = index">
+                <div class="rounded shadow m-3 p-4" >
+                    <div class="header px-3">
+                        <div class="icon d-flex justify-content-center align-items-center p-2 m-2" *ngIf="i == 0">
+                            <svg width="3rem" height="3rem" viewBox="0 0 16 16" class="bi bi-columns-gap" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 1H1v3h5V1zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12h-5v3h5v-3zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8H1v7h5V8zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6h-5v7h5V1zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
+                          </svg>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center p-2 m-2" *ngIf="i == 1">
+                            <svg width="3rem" height="3rem" viewBox="0 0 16 16" class="bi bi-journal-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 1h5v1H4a1 1 0 0 0-1 1H2a2 2 0 0 1 2-2zm10 7v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V8h1zM2 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2z"/>
+                                <path fill-rule="evenodd" d="M13.5 1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V1.5a.5.5 0 0 1 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M13 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+                            </svg>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center p-2 m-2" *ngIf="i == 2">
+                            <svg width="3rem" height="3rem" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+                                <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+                            </svg>
+                        </div>
+                        <p class="text-center"><b>{{i+1}}. {{ item }}</b></p>
+                    </div>
+                    <div class="content px-3">
+                        <p class="text-center" >{{descripciones[i]}}.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
