@@ -1,3 +1,24 @@
 img{
     width: 100%;
 }
+@media (min-width: 0px) and (max-width: 450px){
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+@media (min-width: 400px) and (max-width: 959px){
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+@media (min-width: 960px) and (max-width: 1250px){
+    
+}
+@media (min-width: 1250px) and (max-width: 1000000000px){
+}

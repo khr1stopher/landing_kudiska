@@ -1,0 +1,15 @@
+.anuncio{
+    background: #1588fd;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1588fd, #2992fe);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1588fd, #2992fe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem #6eb0f5 !important;
+}
+.imagen img{
+    position: absolute;
+    bottom: 0px;
+}
+img{
+    border-radius: .5rem .5rem 0% 0%;
+}

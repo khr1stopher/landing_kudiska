@@ -1,19 +1,30 @@
 .contacto{
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    display: none;
 }
 .content{
-    position: absolute;
-    top: 25%;
+
 }
 .sombra{
-    background: rgba(0,0,0,.25);
-    position: absolute;
-    height: 100vh;
-    width: 100%;
 }
 textarea{
     max-height: 80px;
+}
+@media (min-width: 0px) and (max-width: 450px){
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+@media (min-width: 400px) and (max-width: 750px){
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+@media (min-width: 750px) and (max-width: 1250px){
+}
+@media (min-width: 1250px) and (max-width: 1000000000px){
 }

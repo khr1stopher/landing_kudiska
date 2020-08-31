@@ -1,0 +1,27 @@
+<div class="container w-75 py-5">
+    <div class="header">
+        <h2 class="text-center px-4">Estadisticas de la Aplicacion</h2>
+        <p class="text-center">Aqui veras reflejada las Estadisticas de <b>Kudiska</b></p>
+    </div>
+    <div class="content row w-100 justify-content-center align-items-center">
+        <div class="stack d-flex justify-content-center flex-column align-items-center py-3 px-5 mx-2" *ngFor="let item of stack; let i = index">
+            
+            <div class="icono">
+                <img src=".././../../assets/download.svg" class="w-100" *ngIf="i == 0">
+            </div>
+            <div class="icono">
+                <img src=".././../../assets/user.svg" class="w-100" *ngIf="i == 1">
+            </div>
+            <div class="icono">
+                <img src=".././../../assets/edit-2.svg" class="w-100" *ngIf="i == 2">
+            </div>
+            <div class="icono">
+                <img src=".././../../assets/share-2.svg" class="w-100" *ngIf="i == 3">
+            </div>
+        
+            <h4 class="w-100 text-center text-primary"><b>+{{value[i]}}</b></h4>
+            <h6 class="w-100 text-center">{{item}}</h6>
+
+        </div>
+    </div>
+</div>

@@ -1,3 +1,24 @@
+.container .container{
+    padding-bottom: 0px !important;
+}
 footer{
     background: #1f2024;
+}
+@media (min-width: 0px) and (max-width: 450px){
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+@media (min-width: 400px) and (max-width: 750px){
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+@media (min-width: 750px) and (max-width: 1250px){
 }

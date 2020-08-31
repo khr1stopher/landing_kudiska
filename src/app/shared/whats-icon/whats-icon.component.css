@@ -9,3 +9,6 @@
     right: 25px;
     bottom: 25px;
 }
+.shadow{
+    box-shadow: 0 .5rem 1rem #6ddc83 !important;
+}

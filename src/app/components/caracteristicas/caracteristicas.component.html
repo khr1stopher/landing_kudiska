@@ -1,11 +1,11 @@
-<div class="container">
+<div class="container w-75 p-3">
     <div class="header">
         <h2 class="text-center px-4">Que Caracteriza a Kudiska</h2>
         <p class="text-center">¡Con <b>Kudiska</b> lo que esta en tu mente se hace realidad!</p>
     </div>
     <div class="content">
-        <div class="row p-5">
-            <div class="col-4" *ngFor="let item of caracteristicas; let i = index">
+        <div class="row p-2">
+            <div class="col" *ngFor="let item of caracteristicas; let i = index">
                 <div class="rounded shadow m-3 p-4" >
                     <div class="header px-3">
                         <div class="icon d-flex justify-content-center align-items-center p-2 m-2" *ngIf="i == 0">

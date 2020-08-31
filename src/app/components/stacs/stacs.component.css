@@ -1,0 +1,32 @@
+.icono{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.icono img{
+    width: 100%;
+}
+.rounded{
+    background: #eff0f6;
+}
+.content p{
+    font-size: .80rem;
+}
+@media (min-width: 0px) and (max-width: 499px){
+    .stack{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 500px) and (max-width: 750px){
+    .stack{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 750px) and (max-width: 1250px){
+
+}
+@media (min-width: 1250px) and (max-width: 1000000000px){
+
+}
