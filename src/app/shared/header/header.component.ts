@@ -29,8 +29,12 @@ export class HeaderComponent implements OnInit {
     } else {
       this.contacto_activo = true
       document.getElementById('contacto').style.display = "none"
-    }
-    
+    } 
+  }
+
+  cambia_head(){
+    var element = document.querySelector('nav')
+    element.classList.toggle("Sticky", window.scrollY > 100)
   }
 
 }

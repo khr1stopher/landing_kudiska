@@ -18,4 +18,8 @@ export class AppComponent {
       this.spinner.hide();
     }, 500);
   }
+
+  imprimir(){
+    // console.log(window.scrollY)
+  }
 }

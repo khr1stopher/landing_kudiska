@@ -1,2 +1,1 @@
-export interface Index {
-}
+export { Tabla } from './tabla';

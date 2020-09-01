@@ -1,0 +1,25 @@
+.col-3{
+    margin: 0 10px;
+    padding: 0px !important;
+}
+.ultimo{
+    margin-bottom: 0px !important;
+}
+h4{
+    font-size: 1.25rem;
+    color: azure;
+    font-weight: 400;
+    border-radius: .25rem .25rem 0 0;
+}
+h5 span:nth-child(1){
+    font-size: 1rem;
+}
+h5 span:nth-child(2){
+    font-size: 2rem;
+}
+.tabla{
+    /* border: 1px solid var(--blue) */
+}
+.btn{
+    border-radius: 0% !important;
+}
