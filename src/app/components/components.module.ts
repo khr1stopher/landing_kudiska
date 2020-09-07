@@ -10,9 +10,10 @@ import { AnuncioComponent } from './anuncio/anuncio.component';
 import { FacePageComponent } from './face-page/face-page.component';
 import { SharedModule } from '../shared/shared.module';
 import { PrecieComponent } from './precie/precie.component';
+import { PoliticasCookiesComponent } from './politicas-cookies/politicas-cookies.component';
 
 @NgModule({
-  declarations: [PorqueComponent, CaracteristicasComponent, ContactoComponent, FooterComponent, CaptureComponent, StacsComponent, AnuncioComponent, FacePageComponent, PrecieComponent],
+  declarations: [PorqueComponent, CaracteristicasComponent, ContactoComponent, FooterComponent, CaptureComponent, StacsComponent, AnuncioComponent, FacePageComponent, PrecieComponent, PoliticasCookiesComponent],
   imports: [
     CommonModule,
     SharedModule
@@ -27,6 +28,7 @@ import { PrecieComponent } from './precie/precie.component';
     AnuncioComponent,
     FacePageComponent,
     PrecieComponent,
+    PoliticasCookiesComponent,
     SharedModule
   ]
 })

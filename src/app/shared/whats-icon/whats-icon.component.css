@@ -1,4 +1,5 @@
 .icono_whats{
+    z-index: 10;
     height: 4rem;
     cursor: pointer;
     width: 4rem;

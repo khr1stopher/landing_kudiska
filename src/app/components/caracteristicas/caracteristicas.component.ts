@@ -19,9 +19,9 @@ export class CaracteristicasComponent implements OnInit {
     ];
     this.size_icon = 2
     this.descripciones = [
-      'Los Diseños en kudiska pueden competir con los de un diseñador UI',
-      'No es necesario Tener conosimientos previos para crear buenos Templates',
-      'Al ser Organizado y minimalista lo Diseños se crean en un promedio de 5 minutos'
+      'Kudiska de están a la vanguardia de los diseños actuales por ellos los que hagas con nosotros podrán tener la misma calidad que con diseñador profesional',
+      'Solo necesitas seguir las instrucciones que te damos y rápidamente tendrás ese diseño que tantas esperas, y no necesitas recurrir a cumplidas técnicas para expresar lo que deseas',
+      'Al ser organizado y minimalista lo diseños se crean en un promedio de 5 minutos'
     ]
    }
 

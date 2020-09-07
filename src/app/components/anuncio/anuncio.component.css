@@ -10,6 +10,39 @@
     position: absolute;
     bottom: 0px;
 }
+
 img{
     border-radius: .5rem .5rem 0% 0%;
+}
+@media (min-width: 0px) and (max-width: 550px){
+    .col.p-5.my-3{
+        padding: 3rem 0 !important;
+        margin-right: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .container{
+        width: 75% !important;
+    }
+    .imagen img{
+        position: relative;
+        bottom: 0px;
+    }
+}
+@media (min-width: 550px) and (max-width: 780px){
+    .imagen img{
+        width: 75% !important;
+    }
+}
+@media (min-width: 780px) and (max-width: 1250px){
+    .imagen img{
+        width: 50% !important;
+    }
+}
+@media (min-width: 1250px) and (max-width: 1000000000px){
+    .imagen img{
+        width: 50% !important;
+    }
 }

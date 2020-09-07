@@ -25,6 +25,7 @@ h1{
     font-family: 'Cabin', sans-serif;
 }
 h2{
+    text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
 

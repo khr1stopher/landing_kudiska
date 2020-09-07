@@ -1,6 +1,10 @@
-.col-3{
+.col{
     margin: 0 10px;
     padding: 0px !important;
+}
+div.content.row.py-3.justify-content-center.w-auto > div:hover{
+    transform: scale(1.1);
+    box-shadow: .1rem 0 2rem #78b8fd63 !important;
 }
 .ultimo{
     margin-bottom: 0px !important;
@@ -18,8 +22,47 @@ h5 span:nth-child(2){
     font-size: 2rem;
 }
 .tabla{
+    min-height: 27rem;
     /* border: 1px solid var(--blue) */
 }
 .btn{
-    border-radius: 0% !important;
+    border-radius: 0 0 .4rem .4rem !important;
+}
+
+button{
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    
+}
+@media (min-width: 0px) and (max-width: 450px){
+    .row{
+        padding: 1rem !important;
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+    .tabla{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+@media (min-width: 450px) and (max-width: 780px){
+    .row{
+        padding: 1rem !important;
+        flex-direction: column;
+    }
+    .container{
+        width: 100% !important;
+    }
+    .tabla{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+@media (min-width: 780px) and (max-width: 1250px){
+    
+}
+@media (min-width: 1250px) and (max-width: 1000000000px){
 }

@@ -37,4 +37,30 @@ export class HeaderComponent implements OnInit {
     element.classList.toggle("Sticky", window.scrollY > 100)
   }
 
+  ir_caracteristica(){
+    document.querySelector("body > app-root > app-pages > div > app-inicio > app-caracteristicas > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
+  }
+
+  ir_captures(){
+    document.querySelector("body > app-root > app-pages > div > app-inicio > app-capture > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
+  }
+
+  ir_precio(){
+    document.querySelector("body > app-root > app-pages > div > app-inicio > app-precie > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
+  }
+  
+  ir_contacto(){
+    document.querySelector("#contacto").scrollIntoView({ block: 'end',  behavior: 'smooth' })
+  }
+
+  ir_top(){
+    window.scrollTo({top:0,behavior: 'smooth'})
+  }
+
+  kudiska(){
+    window.location.assign(window.location.host.toString())
+    console.log('apso');
+    
+  }
+  
 }

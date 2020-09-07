@@ -1,28 +1,28 @@
 <nav class="navbar navbar-expand-lg navbar-light w-100" (window:scroll)="cambia_head()">
     <div class="container w-75 ">
-        <a class="navbar-brand py-2">Kudiska</a>
+        <a class="navbar-brand py-2" (click)="kudiska()">Kudiska</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse w-100" id="navbarNav">
             <ul class="navbar-nav ml-auto d-flex justify-content-between">
                 <li class="nav-item active " routerLinkActive="active">
-                    <a class="nav-link py-2">Inicio</a>
+                    <a class="nav-link py-2" (click)="ir_top()">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-2">Caracteristicas</a>
+                    <a class="nav-link py-2" (click)="ir_caracteristica()">Caracteristicas</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link py-2" (click)="ir_captures()">Capturas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-2">Capturas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link py-2">Precio</a>
+                    <a class="nav-link py-2" (click)="ir_precio()">Precio</a>
                 </li>
                 <li class="nav-item contact" (click)="contacto()">
-                    <a class="nav-link py-2" data-ripple-color="dark">Contactanos</a>
+                    <a class="nav-link py-2" data-ripple-color="dark" (click)="ir_contacto()">Contactanos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-2 btn btn-outline-primary px-3 ml-2 text-primary" data-ripple-color="dark">Inicio</a>
+                    <a class="nav-link py-2 btn btn-outline-primary px-3 ml-2 text-primary" data-ripple-color="dark" >Inicio</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link py-2 btn btn-primary px-3 ml-2 shadow text-light" data-ripple-color="dark">Resgistro</a>

@@ -17,9 +17,23 @@ li.nav-item.contact a{
 li.nav-item.contact:hover a{
     
 }
+#navbarNav > ul > li:nth-child(6) > a:hover{
+    background: white;
+} 
+#navbarNav > ul > li:nth-child(7) > a:hover{
+    background: var(--blue);
+} 
 nav.Sticky{
     box-shadow: 0 .5rem 1rem #b9abb47a !important;
     background: #fff;
     color: black !important;
     padding: .5rem !important;
+}
+@media (min-width: 0px) and (max-width: 999px){
+    #navbarNav > ul > li:nth-child(6) > a{
+        margin: 5px 10px;
+    }    
+    #navbarNav > ul > li:nth-child(7) > a{
+        margin: 5px 10px;
+    }  
 }
