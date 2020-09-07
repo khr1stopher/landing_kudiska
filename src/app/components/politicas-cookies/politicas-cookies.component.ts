@@ -20,4 +20,14 @@ export class PoliticasCookiesComponent implements OnInit {
 
   }
 
+  privacidad(){
+    window.location.assign(`http://${window.location.host.toString()}/#/politica/privacidad`);
+  }
+  terminos(){
+    window.location.assign(`http://${window.location.host.toString()}/#/politica/terminos`);
+  }
+  cookies(){
+    window.location.assign(`http://${window.location.host.toString()}/#/politica/cookies`);
+  }
+
 }

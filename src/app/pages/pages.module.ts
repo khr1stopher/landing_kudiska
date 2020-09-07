@@ -7,7 +7,8 @@ import { ComponentsModule } from '../components/components.module'
 
 
 const routes: Routes = [
-  {path: '', loadChildren: () => import('./inicio/inicio.module').then(mod => mod.InicioModule)}
+  {path: '', loadChildren: () => import('./inicio/inicio.module').then(mod => mod.InicioModule)},
+  {path: '', loadChildren: () => import('./politica/politica.module').then(mod => mod.PoliticaModule)}
 ];
 
 @NgModule({
@@ -18,6 +19,9 @@ const routes: Routes = [
     RouterModule,
     SharedModule,
     ComponentsModule
+  ],
+  exports: [
+    
   ]
 })
 export class PagesModule { }

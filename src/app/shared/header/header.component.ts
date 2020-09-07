@@ -58,9 +58,8 @@ export class HeaderComponent implements OnInit {
   }
 
   kudiska(){
-    window.location.assign(window.location.host.toString())
+    window.location.assign(`http://${window.location.host}/#/`)
     console.log('apso');
-    
   }
   
 }
