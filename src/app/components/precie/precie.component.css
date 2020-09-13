@@ -28,7 +28,9 @@ h5 span:nth-child(2){
 .btn{
     border-radius: 0 0 .4rem .4rem !important;
 }
-
+h6{
+    font-weight: 100;
+}
 button{
     position: relative;
     bottom: 0px;

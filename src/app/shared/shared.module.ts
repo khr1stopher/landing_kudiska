@@ -4,16 +4,19 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { WhatsIconComponent } from './whats-icon/whats-icon.component';
-
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   declarations: [
     HeaderComponent, 
     FooterComponent, 
-    PageNotFoundComponent, WhatsIconComponent],
+    PageNotFoundComponent, 
+    WhatsIconComponent,
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,
