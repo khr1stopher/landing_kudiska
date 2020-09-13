@@ -49,8 +49,8 @@ export class LoginComponent implements OnInit {
     this.getValues()
     this.servicio_user.getUser(this.User.email,this.User.password).subscribe(
       data => {
-        console.log(data)
-        this.router.navigate(['/inicio']);
+        sessionStorage.setItem('user', JSON.stringify(data))
+        this.router.navigate(['/panel']);
         // this.spinnerService.hide();
       },
         error => {

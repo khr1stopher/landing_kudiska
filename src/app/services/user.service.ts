@@ -25,7 +25,7 @@ export class UserService {
    }
 
    getUsers = () => this.http.get(`${Url}`);
-   getUser = (mail: String, pass: String) => this.http.get(`${Url}/${mail}/?pass=${pass}`);
+   getUser = (mail: String, pass: String) => this.http.get(`${Url}/LanzaApp/?pass=${pass}&correo=${mail}`);
    postUser = (data: User) => this.http.post(`${Url}/?firstname=${data.firstname}&lastname=${data.lastname}&email=${data.email}&years_old=${data.years_old}&phone=${data.phone}&password=${data.password}`, null);
    enviar_correo = (data: Correo) => this.http.post(`${Mail}/?name=${data.nombre}&name_2=${data.apellido}&mail=${data.Correo}&msg=${data.msg}`, null)
 }
