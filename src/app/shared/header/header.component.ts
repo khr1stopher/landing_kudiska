@@ -15,7 +15,8 @@ export class HeaderComponent implements OnInit {
   app_name = app_name;
 
   constructor(
-  ) { 
+    private route: Router
+  ) {
     this.contacto_activo = false
    }
 

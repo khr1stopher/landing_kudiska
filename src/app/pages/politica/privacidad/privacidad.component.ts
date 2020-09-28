@@ -14,6 +14,7 @@ export class PrivacidadComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
