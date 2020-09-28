@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Tabla } from '../../interfaces/index'
+import {app_name} from '../../shared/config/config'
 
 @Component({
   selector: 'app-precie',
@@ -8,6 +9,7 @@ import { Tabla } from '../../interfaces/index'
 })
 export class PrecieComponent implements OnInit {
   name = 'hola';
+  app_name = app_name;
   tabla_1: Tabla;
   tabla_2: Tabla;
   tabla_3: Tabla;

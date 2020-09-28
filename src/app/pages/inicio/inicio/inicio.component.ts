@@ -15,6 +15,8 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class InicioComponent implements OnInit {
 
+  app_name = "LanzaApp"
+
   constructor(
     private user: UserService
   ) { 

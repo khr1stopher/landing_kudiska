@@ -4,21 +4,17 @@ import { InicioComponent } from './inicio/inicio.component';
 import { Routes, RouterModule } from '@angular/router';
 import { SharedModule } from '../../shared/shared.module';
 import { ComponentsModule } from '../../components/components.module';
-import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './login/login.component'
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbDatepickerModule, NgbDateParserFormatter, NgbDateAdapter, NgbDateNativeAdapter } from '@ng-bootstrap/ng-bootstrap';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
-  { path:'inicio', component: InicioComponent },
-  { path:'register', component: RegisterComponent },
-  { path:'login', component: LoginComponent }
+  { path:'inicio', component: InicioComponent }
 ];
 
 @NgModule({
-  declarations: [InicioComponent, RegisterComponent, LoginComponent],
+  declarations: [InicioComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),

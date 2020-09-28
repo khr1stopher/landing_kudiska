@@ -1,6 +1,6 @@
 const Url = {
     local: 'http://localhost:8000',
-    // prod: 'https://chevywebapi.azurewebsites.net'
+    prod: 'https://www.kudiska.com/'
 };
   
 export const environment = {

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import {app_name} from '../config/config'
 
 @Component({
   selector: 'app-header',
@@ -11,6 +12,7 @@ import { Routes, RouterModule } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   contacto_activo: boolean
+  app_name = app_name;
 
   constructor(
   ) { 

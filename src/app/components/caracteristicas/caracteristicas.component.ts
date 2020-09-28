@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {app_name} from '../../shared/config/config'
 @Component({
   selector: 'app-caracteristicas',
   templateUrl: './caracteristicas.component.html',
@@ -10,6 +10,7 @@ export class CaracteristicasComponent implements OnInit {
   caracteristicas: String[];
   descripciones: String[];
   size_icon: number;
+  app_name = app_name
 
   constructor() {
     this.caracteristicas = [

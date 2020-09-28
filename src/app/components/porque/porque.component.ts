@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {app_name} from '../../shared/config/config'
 
 @Component({
   selector: 'app-porque',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./porque.component.css']
 })
 export class PorqueComponent implements OnInit {
+
+  app_name = app_name
 
   constructor() { }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {app_name} from '../../shared/config/config'
 
 @Component({
   selector: 'app-stacs',
@@ -9,6 +10,7 @@ export class StacsComponent implements OnInit {
 
   stack: String[];
   value: Number[];
+  app_name = app_name;
 
   constructor() { 
     this.stack = ['Descargas','Usuarios Activos','Diseños','Diseños Compartidos']
